@@ -1,0 +1,79 @@
+@media (min-width: 392px) and (max-width: 768px){   
+    .title,
+    .title_mob {  
+        display: none;
+    }
+     
+    .title_pl {
+        margin-top: 64px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .title__img_pl {
+        position: relative;
+        margin:auto 0 au;
+        margin-right: 550px;
+        .title__img3_pl {           
+            position: absolute;
+            z-index: 3;
+            background: rgba(0, 0, 0, 0.13);
+            border-radius: 115px 115px 115px 248px;         
+            height: 474px;
+            width: 530px;
+            top: -24px;
+            left: -16px;
+        }
+        .title__img4_pl {
+            position: absolute;
+            z-index: 5;
+        }
+    }
+   
+    .title__text_pl{
+        margin-top: 500px;
+        padding-right: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;       
+        h1{
+            @include maincolor700FFF;
+            font-size: 40px;
+            line-height: 49px;      
+            margin-bottom: 36px;
+        }    
+        span {
+            @include maincolor700;
+            font-size: 46px;
+            line-height: 56px;
+            background: linear-gradient(91.57deg, #C0B7E8 -1.02%, #8176AF 36.25%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;        
+        }
+        p {
+            margin-bottom: 66px;
+            @include maincolor400FFF;
+            font-size: 16px;
+            line-height: 20px;       
+        }       
+        .title__btn_pl {
+            margin: 0 auto;
+            width: 292px;
+            height: 52px;
+            background-color: #948bbf;
+            border-radius: 40px;
+            margin: 0 auto;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 17px;
+            @include btncolor();
+            }
+    }  
+     
+   
+}
+

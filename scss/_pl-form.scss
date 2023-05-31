@@ -1,0 +1,153 @@
+@media (min-width: 392px) and (max-width: 768px){  
+    .form-wrapper,
+    .form-wrapper_mob {
+        display: none;
+    }
+
+    .form-wrapper_pl {
+        display: block;
+        margin: 0 auto;
+        width: 600px;
+        height: 983px;
+        background: radial-gradient(50% 50% at 50% 50%, #403A5F 0%, #211E2E 100%);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 40px;
+        margin-top: 114px;
+        padding-top: 50px;
+        position: relative;
+        overflow: hidden;
+
+        .form-wrapper__container_pl {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        h5 {
+            @include maincolor700FFF();
+            font-size: 24px;
+            line-height: 29px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        h6 {
+            @include maincolor300FFF();
+            font-size: 24px;
+            line-height: 40px;
+            margin-top: 20px;
+            text-align: center;
+        }
+
+        .form-wrapper__input_pl {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-top: 35px;
+        }
+
+        .form-wrapper__input1_pl {
+            box-sizing: border-box;
+            width: 540px;
+            height: 53px;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            background-color: transparent;
+            padding-left: 30px;
+            @include maincolor400FFF();
+            margin: 5px auto 25px auto;
+            font-size: 14px;
+            line-height: 17px;
+
+            &::placeholder {
+                color: #FFFFFF;
+            }
+            &:focus {
+                border: 4px solid #FFFFFF;
+            }
+        }
+
+        .form-wrapper__input3_pl {
+            display: block;
+            box-sizing: border-box;
+            width: 540px;
+            height: 219px;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            background-color: transparent;
+            padding-left: 30px;
+            padding-top: 18px ;
+            align-items: start;
+            @include maincolor400FFF();
+            font-size: 14px;
+            line-height: 17px;
+            margin: 5px auto 45px auto;
+            position: relative;
+
+            &::placeholder {
+                color: #FFFFFF;
+                position: absolute;
+                top: 18px;
+            }
+            &::value {
+                margin-top: 20px;
+               
+            }
+            &:focus {
+                border: 4px solid #FFFFFF;
+            }  
+
+
+        }
+
+        .form-wrapper__btn {
+            width: 300px;
+            height: 48px;
+            background-color: #948bbf;
+            //background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            border-radius: 40px;
+            @include maincolor700();
+            font-size: 12px;
+            line-height: 15px;
+            color: #343045;
+            display: block;
+            margin: 0 auto;
+            @include btncolor();
+        }
+    }
+
+
+    .input-container .field {
+        margin-bottom: 10px;
+    }
+
+
+
+    .input-container {
+        display: flex;
+        flex-direction: column;
+      
+        position: relative;
+       // margin-bottom: 20px;
+
+        .error_pl {
+            position: absolute;
+            top: 58px;
+            left: 50px;
+            @include maincolor400FFF();
+            font-size: 16px;
+            color: rgb(249, 2, 2);
+        }
+
+        .textarea-error_pl {
+            position: absolute;
+            top: 228px;
+            left: 50px;
+            @include maincolor400FFF();
+            font-size: 16px;
+            color: rgb(253, 3, 3);
+        }
+    }
+
+
+}

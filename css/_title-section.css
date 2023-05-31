@@ -1,0 +1,39 @@
+.title-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 60px;
+}
+
+.title-section__text {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+}
+.title-section__text h4 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.title-section__text h5 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 36px;
+  line-height: 44px;
+  color: #FFFFFF;
+}
+.title-section__text .title-section__arrow {
+  margin-top: 15px;
+}
+
+p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+}

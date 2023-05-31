@@ -1,0 +1,33 @@
+@media (min-width: 392px) and (max-width: 768px){   
+    article {
+        box-sizing: border-box;
+        margin: 0 auto;
+        background-color: #343045;
+        padding: 20px 30px;
+        max-width: 767px;
+        background-image:
+            url('../img/Vector\ 1.png'),
+            url('../img/Vector\ 2.png'),
+            url('../img/Vector\ 3.png'),
+            url('../img/Vector\ 4.png'),
+            url('../img/Vector\ 7.png'),
+            url('../img/Vector\ 8.png'),
+            url('../img/Vector\ 14.png'),
+            url('../img/Vector\ 191.png'),
+            url('../img/Vector\ 181.png');
+         
+        background-repeat: no-repeat;
+        background-position:
+            360px 130px, 
+            260px 0px, 
+            50px 320px, 
+            2px 774px, 
+            -400px 1498px, 
+            -400px 1490px, 
+            100px 2188px, 
+            -200px 3600px, 
+            -200px 4165px;
+            
+    }
+
+} 

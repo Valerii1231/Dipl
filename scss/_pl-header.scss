@@ -1,0 +1,60 @@
+@media (min-width: 392px) and (max-width: 768px){   
+    .header__log_mob,
+    .header__menu_mob,
+    .header__contacts-join,   
+    .header__menu-content_mob,
+    .header__nav{
+        display: none;
+    }
+
+    
+   
+
+
+    .header {
+        display: flex;
+        justify-content: flex-start;  
+        column-gap: 70px;   
+    }
+
+
+
+
+
+    .header__logo {
+        display: flex;   
+        justify-content: flex-start;
+        column-gap: 15px;
+        .header__logo-img1{
+            @include logorotate;
+        }     
+        .header__logo-img2{
+            margin-top: 30px;
+            align-items: center;
+            height: 50px;
+        }
+    }
+
+    .header__nav_pl {
+        display: flex;
+        justify-content: flex-start;
+        list-style-type: none;
+        column-gap: 30px;
+        margin-top: 45px;
+        a {
+            text-decoration: none;
+            @include maincolor700FFF;                 
+            font-size: 12px;
+            line-height: 15px;    
+            &:hover {
+                color: aqua;
+            }      
+            
+        }
+    }
+
+   
+    
+   
+    
+}

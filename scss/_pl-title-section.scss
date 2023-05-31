@@ -1,0 +1,24 @@
+@media (min-width: 392px) and (max-width: 768px){   
+    .title-section
+    .title-section_mob {
+        display: none;
+    }
+    
+    .title-section_pl {
+        display: flex;
+        flex-direction: column;              
+        h4 {
+            @include maincolor700FFF();
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;
+            margin-bottom: 10px;        
+        }
+        h5 {
+            @include maincolor300FFF();
+            font-size: 26px;
+            line-height: 32px;
+            text-align: center;            
+        }            
+    }      
+}

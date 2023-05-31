@@ -1,0 +1,121 @@
+@media (min-width: 392px) and (max-width: 768px){   
+    .process,
+    .process_mob {
+        display: none;
+    } 
+
+    .process_pl {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 70px;
+      
+        
+    }
+
+    .process__boxs_pl{
+        display: flex;
+        flex-direction: column;      
+        margin: 30px auto 0 60px;
+        height: 300px;
+        position: relative;
+        //background-color: aquamarine;
+        p {
+            @include maincolor700FFF();
+            font-size: 24px;
+            line-height: 29px;
+            //text-align: center;
+            position: absolute;
+            top: 250px;
+            left: 140px;
+           
+        }
+    }
+   
+    
+    .process__circle_pl{
+        position: relative; 
+        z-index: 5;  
+        margin-left: 130px;  
+    
+        .process__img1_pl {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__img2_pl {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+        }
+        .process__img3_pl {
+            position: absolute;
+            top: 73px;
+            left: 60px;
+        }
+        p{
+            margin-left: 140px;
+        }
+    }
+    
+    .process__boxs_pl_wriper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 60px;
+        margin-right: 20px;
+        width: 500px;
+
+    }
+   
+    .process__arrow-prev_pl {  
+        top: 250px;  
+        right: 40px;   
+        position: relative; 
+        z-index: 5;  
+        @include iconcolor();      
+        .process__arrow-prev-img1_pl {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__arrow-prev-img2_pl {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+        }
+        .process__arrow-prev-imgp_pl {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+        }
+    }
+
+    .process__arrow-next_pl {
+        top: 250px;  
+        left: -65px;
+        position: relative; 
+        z-index: 5; 
+        @include iconcolor();       
+        .process__arrow-next-img1_pl {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__arrow-next-img2_pl {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+        }
+        .process__arrow-next-imgn_pl {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+        }
+    }
+
+
+
+
+}

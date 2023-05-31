@@ -1,0 +1,10 @@
+article {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #343045;
+  padding: 10px 10px;
+  max-width: 390px;
+  background-image: url("../img/Vector m1.png"), url("../img/Vector m2.png"), url("../img/Vector m3.png");
+  background-repeat: no-repeat;
+  background-position: 102px 77px, 23px 65px, -162px 268px;
+}

@@ -1,0 +1,111 @@
+@media (min-width: 769px) {
+    .header__log_mob,
+    .header__menu_mob,
+    .header__logo_pl,
+    .header__nav_pl {
+        display: none;
+    }
+
+    
+   
+
+
+    .header {
+        display: flex;
+        justify-content: space-between;     
+    }
+
+
+
+    .header__logo {
+        display: flex;   
+        justify-content: flex-start;
+        column-gap: 15px;
+        .header__logo-img1{
+            @include logorotate;
+            
+        }     
+        .header__logo-img2{
+            margin-top: 30px;
+            align-items: center;
+            height: 50px;
+        }
+    }
+
+    .header__nav {
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        column-gap: 40px;
+        margin-top: 45px;
+        a {
+            text-decoration: none;
+            @include maincolor700FFF;         
+            font-size: 12px;
+            line-height: 15px;  
+            &:hover {
+                color: aqua;
+            }               
+        }
+    }
+    
+    .header__contacts-join {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        column-gap: 38px;
+        
+        .contacts {
+            box-sizing: border-box;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;
+            background-color: #343045;    
+            width: 158px;
+            height: 48px;            
+            @include maincolor700FFF;
+            font-size: 12px;
+            line-height: 15px;        
+            cursor: pointer;
+            transition-duration: 0.3s;
+            transition-property: all;
+            &:hover{
+                color: rgb(234, 241, 241);
+                background-color: #21576d;
+            }
+            
+        }
+
+        
+        .join {
+            box-sizing: border-box;
+            border: 2px solid #FFFFFF;
+            border-radius: 40px;  
+            width: 158px;
+            height: 48px;
+            //background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            background-color: #948bbf;
+            @include maincolor700;
+            font-size: 12px;
+            line-height: 15px;
+            color: #343045;
+            cursor: pointer;
+            transition-duration: 0.3s;
+            transition-property: all;
+            
+            &:hover{
+                color: rgb(234, 241, 241);             
+                background-color: #21576d;
+            }
+        }
+
+
+        
+
+        
+        
+        .header__menu_mob {
+            display: none;
+        }
+    }
+}
+

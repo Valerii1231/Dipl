@@ -1,0 +1,69 @@
+
+@mixin maincolor700FFF(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+
+@mixin maincolor400FFF(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+
+@mixin maincolor300FFF(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+
+@mixin maincolor700(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700; 
+}
+
+@mixin maincolor400(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400; 
+}
+
+@mixin maincolor300(){
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300; 
+}
+
+@mixin iconcolor(){
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    &:hover{
+       filter: invert(90%);                 
+    }
+}
+
+@mixin btncolor(){
+    cursor: pointer;
+    transition-duration: 0.3s;
+    transition-property: all;
+    &:hover{
+        color: rgb(234, 241, 241);
+        background-color: #21576d;
+    }
+}
+
+@mixin logorotate(){
+    transition: transform 0.6s ease-in-out;
+        &:hover{
+            transform: rotate(360deg);      
+        } 
+    }
+    

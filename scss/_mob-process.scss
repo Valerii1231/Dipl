@@ -1,0 +1,116 @@
+@media (max-width: 391px) {
+    .process,
+    .process_pl {
+        display: none;
+    } 
+
+    .process_mob {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      
+        
+    }
+
+    .process__boxs_mob{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+        //margin-top: 38px;
+        margin: 38px auto 0 60px;
+        height: 300px;
+        position: relative;
+        p {
+            @include maincolor700FFF();
+            font-size: 24px;
+            line-height: 29px;
+            text-align: center;
+            position: absolute;
+            top: 250px;
+            left: 20px;
+        }
+    }
+   
+
+    .process__circle_mob{
+        position: relative; 
+        z-index: 5;        
+        .process__img1_mob {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__img2_mob {
+            position: absolute;
+            top: 18px;
+            left: 18px;
+        }
+        .process__img3_mob {
+            position: absolute;
+            top: 73px;
+            left: 60px;
+        }
+    }
+    
+    .process__boxs_mob_wriper {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-left: 24px;
+        margin-right: 20px;
+        width: 250px;
+
+    }
+
+    .process__arrow-prev_mob {  
+        top: 250px;  
+        right: 40px;   
+        position: relative; 
+        z-index: 5;  
+        @include iconcolor();      
+        .process__arrow-prev-img1_mob {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__arrow-prev-img2_mob {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+        }
+        .process__arrow-prev-imgp_mob {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+        }
+    }
+
+    .process__arrow-next_mob {
+        top: 250px;  
+        left: -65px;
+        position: relative; 
+        z-index: 5; 
+        @include iconcolor();       
+        .process__arrow-next-img1_mob {
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .process__arrow-next-img2_mob {
+            position: absolute;
+            top: 9px;
+            left: 9px;
+        }
+        .process__arrow-next-imgn_mob {
+            position: absolute;
+            top: 12px;
+            left: 10px;
+        }
+    }
+
+
+
+
+}

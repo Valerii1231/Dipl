@@ -1,0 +1,94 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  display: flex;
+  justify-content: flex-start;
+  column-gap: 15px;
+}
+.header__logo .header__logo-img {
+  transition: transform 0.6s ease-in-out;
+}
+.header__logo .header__logo-img:hover {
+  transform: rotate(360deg);
+}
+.header__logo .as {
+  margin-top: 30px;
+  align-items: center;
+  height: 50px;
+}
+
+.header__menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  column-gap: 40px;
+  margin-top: 45px;
+}
+.header__menu a {
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #FFFFFF;
+}
+
+.header__contacts-join {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 35px;
+  column-gap: 38px;
+}
+.header__contacts-join .contacts {
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  width: 158px;
+  height: 48px;
+  background-color: #343045;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 12px;
+  line-height: 15px;
+  cursor: pointer;
+  transition-duration: 1.1s;
+  transition-property: all;
+}
+.header__contacts-join .contacts:hover {
+  color: #eaf1f1;
+  background-color: #21576d;
+}
+.header__contacts-join .join {
+  box-sizing: border-box;
+  border: 2px solid #FFFFFF;
+  border-radius: 40px;
+  width: 158px;
+  height: 48px;
+  background-color: #948bbf;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  color: #343045;
+  cursor: pointer;
+  transition-duration: 1.1s;
+  transition-property: all;
+}
+.header__contacts-join .join:hover {
+  color: #eaf1f1;
+  background-color: #21576d;
+}
+
+p {
+  font-size: 12px;
+  line-height: 15px;
+}

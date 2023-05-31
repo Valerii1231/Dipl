@@ -1,0 +1,42 @@
+@media (max-width: 391px) {   
+    .about,
+    .about_pl {
+        display: none;
+    }  
+
+    .about__item_mob {
+        display: flex;
+        flex-direction: column;     
+        margin-top: 36px;       
+        p {
+            margin-top: 42px;
+            @include maincolor400FFF();
+            font-size: 12px;
+            line-height: 15px;   
+            text-align: left;  
+            padding-left: 8px;     
+        }
+        button {
+            display: block;
+            margin: 32px auto 80px auto; 
+            width: 276px;
+            height: 56px;
+            //background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
+            background-color: #948bbf;
+            border-radius: 40px;        
+            @include maincolor700();
+            font-size: 12px;
+            line-height: 15px;
+            color: #343045; 
+            @include btncolor();  
+                  
+        }    
+        .about__img_mob {
+            position: relative;
+            margin: 0 auto;  
+            .about__img1_mob {
+                z-index: 5;
+            }
+        }
+    }  
+}

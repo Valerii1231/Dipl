@@ -1,0 +1,10 @@
+article {
+  box-sizing: border-box;
+  margin: 0 auto;
+  background-color: #343045;
+  padding: 54px 84px;
+  max-width: 1440px;
+  background-image: url("../img/Vector 2.png"), url("../img/Vector 3.png"), url("../img/Vector 4.png"), url("../img/Vector 7.png"), url("../img/Vector 8.png"), url("../img/Vector 14.png"), url("../img/Vector 191.png"), url("../img/Vector 181.png");
+  background-repeat: no-repeat;
+  background-position: 930px 0, 708px 420px, 2px 274px, 6px 1268px, 4px 1554px, -3px 2188px, 4px 4900px, 2px 5165px;
+}
